@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Day 1</title>
+</head>
+<body>
+    <h1>Types of functions</h1>
+    <p>
+
+1. Function Declaration
+ function greet(name) {
+   return `Hello, ${name}!`;
+ }
+ console.log(greet("Alice")); // Output: Hello, Alice!</p>
+<p>< 2. Function Expression
+ const add = function(a, b) {
+    return a + b;
+};
+console.log(add(5, 3)); // Output: 8</p>
+<p>
+ 3. Arrow Function
+// const multiply = (x, y) => x * y;
+// console.log(multiply(4, 6)); // Output: 24</p>
+<p>
+
+
+ 4. Immediately Invoked Function Expression (IIFE)
+(function() {
+    console.log("This is an IIFE!");
+})();
+Output: This is an IIFE!</p>
+<p>
+5. Recursive Function
+function factorial(n) {
+   if (n <= 1) return 1;
+  return n * factorial(n - 1);
+ }
+console.log(factorial(5)); // Output: 120</p>
+<p>
+ 6. Callback Function
+function fetchData(callback) {
+  setTimeout(() => {
+      const data = "Sample Data";
+      callback(data);
+
+     }, 1000);
+
+}
+fetchData(function(data) {
+    console.log("Fetched Data:", data);
+});
+</p>
+
+    <script src="script.js"></script>   
+</body>
+</html>
