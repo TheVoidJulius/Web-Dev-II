@@ -55,9 +55,74 @@
 // console.log(words2);
 
 
-let str = "programming is a very good subject to learn rrrrrr";
-let count = str.split("r").length - 1;
+// let str = "programming is a very good subject to learn rrrrrr";
+// let count = str.split("r").length - 1;
 
-console.log(count);
+// console.log(count);
+
+// // 1. Function Declaration
+//  function greet(name) {
+//    return `Hello, ${name}!`;
+//  }
+//  console.log(greet("Alice")); // Output: Hello, Alice!
+
+// // 2. Function Expression
+//  const add = function(a, b) {
+//     return a + b;
+// };
+// console.log(add(5, 3)); // Output: 8
+
+// //  3. Arrow Function 
+//  const multiply = (x, y) => x * y;
+// console.log(multiply(4, 6)); // Output: 24
 
 
+
+// //   4. Immediately Invoked Function Expression (IIFE) 
+// (function() {
+//     console.log("This is an IIFE!");
+// })();
+// // Output: This is an IIFE!
+
+// // 5. Recursive Function
+// function factorial(n) {
+//    if (n <= 1) return 1;
+//   return n * factorial(n - 1);
+//  }
+// console.log(factorial(5)); // Output: 120
+
+// //  6. Callback Function
+// function fetchData(callback) {
+//   setTimeout(() => {
+//       const data = "Sample Data";
+//       callback(data);
+
+//      }, 1000);
+
+// }
+// fetchData(function(data) {
+//     console.log("Fetched Data:", data);
+// });
+
+
+// // 7. anonymous function 
+// const anonymousFunction = function() {
+//     console.log("This is an anonymous function.");
+// };
+// anonymousFunction(); // Output: This is an anonymous function.</p>
+
+// // 8. ASYNC function 
+    
+//     setTimeout(callback,timedelay)
+
+
+//     setTimeout({}=> {
+//         console.log("This message is shown after 2 seconds");
+//     }, 2000);
+
+
+
+// (function(){
+//     console.log("This is a named function expression.");
+
+// })()
