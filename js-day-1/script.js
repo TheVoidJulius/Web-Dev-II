@@ -126,3 +126,29 @@
 //     console.log("This is a named function expression.");
 
 // })()
+
+
+
+
+
+
+
+
+// var a = 10;
+// console.log(a);
+
+// function example() {
+//     let b = 20;
+//     console.log(b);}
+
+// example();
+
+
+
+// callstack is a process and mechanism which keeps tracks of every process running in the background or javascript codes 
+// callstack stores gec and fec 
+
+// after the processing of the code it will pop out the fec and gec at the end
+
+
+
