@@ -151,4 +151,16 @@
 // after the processing of the code it will pop out the fec and gec at the end
 
 
+//  - the difference between object.seal 
+
+
+// question 9 - what is execution context ? and how javascript code is executed in execution context?
+
+// // execution context is an environment where the javascript code is executed 
+// // there are two types of execution context 
+// // 1. global execution context 
+// // 2. function execution context
+
+// question 10 - what is callstack? 
+
 
