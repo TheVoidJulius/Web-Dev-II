@@ -54,3 +54,28 @@
 // task5[i].style.color = 'purple';
 // }
 
+
+
+
+// const para = document.createElement("p");
+// para.textContent = "Enjoy building your web page!";
+// console.log(para);
+
+// document.getElementById("content").appendChild(para);
+
+// document.querySelector("#content p").remove();
+
+// const image = document.createElement("img");
+// image.setAttribute("src","https://th.bing.com/th?id=OMSN.AA1VB0L4.webp-Gem&pid=wdpv2&w=312&h=196&qlt=90&c=1&rs=1");
+// image.setAttribute("alt","Image");
+
+// const gallery = document.getElementById("gallery");
+// gallery.appendChild(image);
+
+
+// const childparagraph = document.createElement("#parent p");
+// const parentdiv = childparagraph.parentelement;
+// console.log(parentdiv.id);
+
+
+
