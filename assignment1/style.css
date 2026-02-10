@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #8ab4f9, #9be7d8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 1050px;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+.form-card label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.form-card input,
+.form-card select,
+.form-card textarea {
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-card textarea {
+  min-height: 70px;
+  resize: none;
+}
+
+.form-card button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #6366f1, #7c3aed);
+  border: none;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.events-card .actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.events-card button {
+  flex: 1;
+  padding: 8px;
+  background: linear-gradient(90deg, #6366f1, #7c3aed);
+  border: none;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.events-container {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-text {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.dom-card {
+  margin-top: 30px;
+}
+
+.demo-box {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.demo-box h3 {
+  margin-bottom: 10px;
+}
+
+.demo-box p {
+  margin-bottom: 6px;
+}
+
+.key {
+  display: inline-block;
+  background: #c1c1c1;
+  color: #4f46e5;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.key-text {
+  color: #6366f1;
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .top-section {
+    grid-template-columns: 1fr;
+  }
+}
